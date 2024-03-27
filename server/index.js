@@ -1,5 +1,5 @@
 const express = require("express");
-const ApiRoute = require("../routes/index");
+const ApiRoute = require("./routes/index");
 const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
