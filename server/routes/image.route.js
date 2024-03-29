@@ -23,7 +23,7 @@ class ImageRoute {
 
         await FileHelper.deleteDir(`${tempPath}/${profilePicture.originalname}`);
 
-        res.send(fileUpload);
+        res.send(fileUpload)
     } catch (err) {
       console.error(err);
 
